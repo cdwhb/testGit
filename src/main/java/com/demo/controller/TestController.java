@@ -3,10 +3,10 @@ package com.demo.controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-//@RestController
+@RestController
 public class TestController {
 
-    //@RequestMapping(value = "/hi")
+    @RequestMapping(value = "/hi")
     public String hi() {
         System.out.println("111");
         return "hello world!";
@@ -17,7 +17,7 @@ public class TestController {
         return "hello world!";
     }
 
-    //@RequestMapping(value = "/hii")
+    @RequestMapping(value = "/hii")
     public String hii() {
         return "hello world 02!";
     }
